@@ -1,0 +1,30 @@
+GridPane {
+
+  -fx-padding: 10px;
+  -fx-min-width: 100%;
+  -fx-min-height: 100%;
+  -fx-alignment: center;
+  -fx-spacing: 10px;
+  -fx-hgap: 10px;
+  -fx-vgap: 10px;
+
+
+}
+
+  #viewScroller {
+    --fx-hbar-policy: NEVER;
+    -fx-vbar-policy: never;
+    -fx-min-width: 600px;
+    -fx-max-width: 600px;
+    -fx-min-height: 600px;
+    -fx-max-height: 600px;
+    -fx-pannable: true;
+  }
+#densitySlider {
+   -fx-major-tick-unit: 1;
+   -fx-minor-tick-count: 0;
+   -fx-snap-to-ticks: true;
+ }
+
+
+
